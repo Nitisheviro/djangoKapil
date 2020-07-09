@@ -142,7 +142,7 @@ body.menu-active #Header .logo {
 	color: #19af83;
 }
 #HeroBanner {
-	background: url(../images/banner.jpg)no-repeat 0 0 / cover;
+	background: url("../images/banner.4e1b6a0b1bae.jpg")no-repeat 0 0 / cover;
 	height: 630px;
 	position: relative;
 }
@@ -218,7 +218,7 @@ body.menu-active #Header .logo {
 	position: relative;
 }
 #Laptop::before {
-	background: url(../images/improve-business.jpg) no-repeat 0 0;
+	background: url("../images/improve-business.2ec23fcf44ed.jpg") no-repeat 0 0;
 	content: "";
 	position: absolute;
 	top: 0;
@@ -706,7 +706,7 @@ body.menu-active #Header .logo {
 	transition: all 0.25s ease 0s;
 }
 #Footer .footer-text .email-box input.submit {
-	background: url(../images/email-box-arrow.png) no-repeat 0 5px;
+	background: url("../images/email-box-arrow.0c14ff516b5a.png") no-repeat 0 5px;
 	padding: 0px 4px;
 	border: 0;
 	position: absolute;
