@@ -1,48 +1,154 @@
-{% extends 'product/base.html' %} 
- {% load static %}
- 
+{% extends 'product/base.html' %} {% block content %} {% load static %}
 
-{% block content %}
-
-
-
-  <main role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+<main role="main">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">EviroHealthCare</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+            <h1 class="display-3">EVIROHEALTHCARE</h1>
+            <p style="
+    font-size: small;
+    font-style: italic;
+">EVIROHEALTHCARE deals in HYGIENE and SURGICALS market. EVIROHEALTHCARE who eastablished in 2020 by the founder of EVIROHEALTHCARE named as NITISH BAJAJ AND KAPIL BAJAJ. The idea of EVIROHEALTHCARE is inspired by AATMNIRBHAR BHARAT and
+                SWACHH BHARAT ABHIYAN. According to EVIROHEALTHCARE everyone have an opportunity for new startup with us. EVIROHEALTHCARE Products brand name is STAY CLEAN. Like stay clean hand wash and the products is marketed by baja hygine and surgicals.
+                Now we deals in all order India.</p>
+            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
         </div>
-      </div>
-
-      <div class="container">
+    </div>
+    <div class="container">
         <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
-          </div>
+        <div class="row justify-content-center">
+            <!-- <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center">EVIROHEALTHCARE GOALS</h1>
+                    </div>
+                    <div class="col-12" style="
+                display: flex;
+                justify-content: center;
+                font-size: medium;
+                font-family: serif;
+                font-weight: 900;
+            ">
+                        <div>
+                            <p>
+                                <i>WE CARE FOR YOUR HEALTH</i>
+                            </p>
+                            <p>
+                                <i>STAY CLEAN - STAY SAFE</i>
+                            </p>
+                            <p>
+                                <i>CLEAN INDIA - HEALTHY INDIA</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-md-3">
+                <div class="row p-1">
+                    <div class="" style="width:400px">
+                        <img class="card-img-top" src="{% static 'images/Nitish.jpeg' %}" alt="Card image" style="width:100%; border-radius: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mr. Nitish Bajaj
+
+                                </h4>
+                                <h5 class="card-title text-center">FOUNDER
+
+                                    </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row p-1">
+                    <div class="" style="width:400px">
+                        <img class="card-img-top" src="{% static 'images/kapil.jpg' %}" alt="Card image" style="width:100%; border-radius: 50%;">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mr. Kapil Bajaj
+
+                                </h4>
+                                <h5 class="card-title text-center">FOUNDER
+
+                                    </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="row p-1">
+                    <div class="" style="width:400px">
+                        <img class="card-img-top" src="{% static 'images/Himanshu.jpeg' %}" alt="Card image" style="width:100%; border-radius: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mr. Himanshu Bajaj
+
+                                </h4>
+                                <h5 class="card-title text-center">CO-FOUNDER
+
+                                    </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="" style="width:400px">
+                        <img class="card-img-top" src="{% static 'images/Nikhil.jpeg' %}" alt="Card image" style="width:100%; border-radius: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mr. Nikhil Maheshwari(CS)
+
+                                </h4>
+                                <h5 class="card-title text-center">CO-FOUNDER
+
+                                    </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="" style="width:400px">
+                        <img class="card-img-top" src="{% static 'images/gourav.jpg' %}" alt="Card image" style="width:100%; border-radius: 50%;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Mr. Gourav Gond
+
+                                </h4>
+                                <h5 class="card-title text-center">IT HEAD
+
+                                    </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="text-center">FRANCHISEE / DISTRIBUTOR SHIP :- </h1>
+
+
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <div>
+                    <h6 class="text-center">Franchisee of EVIROHEALTHCARE is distributed in few areas of MP -</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">INDRORE DISTRICT</li>
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">SEHORE DISTRICT</li>
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">BHOPAL DISTRICT</li>
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">REWA DISTRICT</li>
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">CHINDWARA DISTRICT</li>
+                        <li class="list-group-item text-center" style="border:0; font-weight: 500;">HOSHANGABAD DISTRICT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
 
         <hr>
-
-      </div> <!-- /container -->
-
-    </main>
-
-
-
+    </div>
+    </div>
+    <!-- /container -->
+</main>
 {% endblock %}
