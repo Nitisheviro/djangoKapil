@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 
 class ProductListView(ListView):
-	paginate_by = 10
+	paginate_by = 12
 	model = Product
 
 
